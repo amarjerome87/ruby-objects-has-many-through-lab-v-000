@@ -17,7 +17,7 @@ end
 
 def patient
   Patient.all.collect do |patients|
-    binding.pry
+    patients 
   end
 end
 
