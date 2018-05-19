@@ -21,7 +21,7 @@ class Doctor
 
   def appointments
     Appointment.all.collect do |appointments|
-      binding.pry
+      appointments.doctor 
     end
   end
 
