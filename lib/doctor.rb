@@ -15,7 +15,6 @@ class Doctor
 
   def new_appointment(date,patient)
     @date = date
-    patient =
   end 
 
 end
