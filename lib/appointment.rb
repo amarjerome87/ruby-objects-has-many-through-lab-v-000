@@ -16,6 +16,7 @@ def self.all
 end
 
 def patient
-end 
+  
+end
 
 end
