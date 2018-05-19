@@ -17,7 +17,7 @@ end
 
 def patient
   Patient.all.collect do |patients|
-    patients 
+    patients == self
   end
 end
 
