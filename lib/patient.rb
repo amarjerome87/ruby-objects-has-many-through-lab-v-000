@@ -25,6 +25,7 @@ class Patient
 
   def doctors
     Doctor.all.collect do |doctors|
+      binding.pry
     end
   end
 
