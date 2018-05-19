@@ -15,11 +15,7 @@ def self.all
   @@all
 end
 
-def patient
-  Patient.all.collect do |patients|
-    patients
-  end
-end
+
 
 
 
