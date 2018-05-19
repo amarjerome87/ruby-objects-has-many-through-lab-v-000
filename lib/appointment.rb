@@ -16,7 +16,9 @@ def self.all
 end
 
 def patient
-  
+  Patient.all.collect do |patients|
+    patients
+  end
 end
 
 
